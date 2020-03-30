@@ -452,26 +452,56 @@ a {
 /* line 15, ../../../../../../../../../../../../../Users/sarahcarter/Desktop/Coding Projects/techdegree-project-4/scss/components/_buttons.scss */
 .default {
   background-color: #51ddfc;
+  transition: .5s;
 }
 
 /* line 19, ../../../../../../../../../../../../../Users/sarahcarter/Desktop/Coding Projects/techdegree-project-4/scss/components/_buttons.scss */
+.default:hover {
+  background-color: #9cecfd;
+}
+
+/* line 24, ../../../../../../../../../../../../../Users/sarahcarter/Desktop/Coding Projects/techdegree-project-4/scss/components/_buttons.scss */
 .error {
   background-color: #e4757a;
+  transition: .5s;
 }
 
-/* line 23, ../../../../../../../../../../../../../Users/sarahcarter/Desktop/Coding Projects/techdegree-project-4/scss/components/_buttons.scss */
+/* line 28, ../../../../../../../../../../../../../Users/sarahcarter/Desktop/Coding Projects/techdegree-project-4/scss/components/_buttons.scss */
+.error:hover {
+  background-color: #f1b5b8;
+}
+
+/* line 33, ../../../../../../../../../../../../../Users/sarahcarter/Desktop/Coding Projects/techdegree-project-4/scss/components/_buttons.scss */
 .info {
   background-color: #927bc1;
+  transition: .5s;
 }
 
-/* line 27, ../../../../../../../../../../../../../Users/sarahcarter/Desktop/Coding Projects/techdegree-project-4/scss/components/_buttons.scss */
+/* line 37, ../../../../../../../../../../../../../Users/sarahcarter/Desktop/Coding Projects/techdegree-project-4/scss/components/_buttons.scss */
+.info:hover {
+  background-color: #bdafd9;
+}
+
+/* line 42, ../../../../../../../../../../../../../Users/sarahcarter/Desktop/Coding Projects/techdegree-project-4/scss/components/_buttons.scss */
 .success {
   background-color: #63cc82;
+  transition: .5s;
 }
 
-/* line 31, ../../../../../../../../../../../../../Users/sarahcarter/Desktop/Coding Projects/techdegree-project-4/scss/components/_buttons.scss */
+/* line 46, ../../../../../../../../../../../../../Users/sarahcarter/Desktop/Coding Projects/techdegree-project-4/scss/components/_buttons.scss */
+.success:hover {
+  background-color: #9ddfb0;
+}
+
+/* line 51, ../../../../../../../../../../../../../Users/sarahcarter/Desktop/Coding Projects/techdegree-project-4/scss/components/_buttons.scss */
 .warning {
   background-color: #fd7856;
+  transition: .5s;
+}
+
+/* line 55, ../../../../../../../../../../../../../Users/sarahcarter/Desktop/Coding Projects/techdegree-project-4/scss/components/_buttons.scss */
+.warning:hover {
+  background-color: #feb4a2;
 }
 
 /* ============================================= */
