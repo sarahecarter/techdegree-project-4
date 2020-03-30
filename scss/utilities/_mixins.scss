@@ -1,0 +1,6 @@
+// Mixins
+@mixin for-tablet {
+    @media (min-width: $brk-tablet) {
+        @content;
+    }
+}

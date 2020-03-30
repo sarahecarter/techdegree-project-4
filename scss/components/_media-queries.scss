@@ -1,7 +1,7 @@
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: $brk-tablet) {
+@include for-tablet {
 
     .container {
       max-width: 1400px;
